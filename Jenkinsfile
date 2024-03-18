@@ -12,7 +12,11 @@ pipeline {
         SCANNER_HOME=tool 'sonar-scanner'
     }
     stages {
-        
+        stage("Npm install") {
+            steps {
+                sh 'npm install'
+            }
+        }
     }
     post {
     always {
