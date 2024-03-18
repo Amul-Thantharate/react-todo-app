@@ -5,7 +5,7 @@ def COLOR_MAP = [
 
 pipeline {
     tools {
-        jdk 'jdk17'
+        jdk 'java17'
         nodejs 'node16'
     }
     environment {
