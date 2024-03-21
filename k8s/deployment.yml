@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: todo-app
-        image: amuldark/todo-app:latest
+        image: amuldark/todo:latest
         ports:
         - containerPort: 3000
